@@ -4,6 +4,7 @@
 @use 'plans';
 @use 'available-devices';
 @use 'faq';
+@use 'footer';
 
 @font-face {
     font-family: Avenir;
@@ -80,6 +81,11 @@ body{
     border-radius: 4px;
     margin-top: 2vw;
     margin-bottom: 8px;
+    cursor: pointer;
+
+    &:hover{
+        filter: brightness(1.2);
+    }
 }
 
 .image-text-section{
