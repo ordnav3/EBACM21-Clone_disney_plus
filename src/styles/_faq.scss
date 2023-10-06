@@ -7,7 +7,6 @@
     }
 
     &__questions{
-
         &__item{
             background-color: #13151d;
             margin-bottom: 16px;
@@ -19,6 +18,16 @@
                 display: block;
                 cursor: pointer;
                 position: relative;
+                
+                p{
+                    max-width: 700px;
+                    width: 100%;
+
+                    @media (max-width:768px) {
+                        max-width: 250px;
+                        width: 100%;
+                    }
+                }
 
                 &::after{
                     content: '+';
